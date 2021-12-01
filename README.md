@@ -25,7 +25,7 @@ brew install gnuplot
 * L<sub>2</sub> (sample to detector) : 4.0 m
 * L<sub>3</sub> (Fermi chopper to sample) : 1.03 m
 * L<sub>T0</sub> (neutron source (moderator) to T0 chopper) : 9.0 m
-
+* Coverage of the wide-angle detectors : 3.0 - 64.16 deg
 
 ## Section 3: Examples of experiments at HRC 
 * Hybridization of longitudinal and transverse spin excitations in CsFeCl<sub>3</sub> under pressure
