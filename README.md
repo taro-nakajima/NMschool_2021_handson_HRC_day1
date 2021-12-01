@@ -41,7 +41,7 @@ brew install gnuplot
 Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
 * Open "plot_TOF_diagram_single.txt".
-* Find appropriate equations for the variables "vi" and "vf", which are the velocities of incident and scattered neutrons. Note that in gnuplot you can use sqrt(x) and x**2.0  
+* Find appropriate equations for the variables "vi" and "vf", which are the velocities of incident and scattered neutrons. Note that in gnuplot you can use built-in functions such as sqrt(x) and x**2.0.  
 
 ### Sec. 4-3: What is the multi-E<sub>i</sub> method?
 
