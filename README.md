@@ -6,12 +6,11 @@
 ## Outline
 1. A brief review of inelastic neutron scattering.
 2. Overview of HRC spectrometer. (15 min)
-3. Examples of experiments at HRC (CsFeCl3 under pressure, SrRuO3 NBS) (15 min)
+3. Examples of experiments at HRC (CsFeCl3 under pressure, SrRuO3 NBS) 
 4. Procedures of neutron inelastic scattering experiment.
-    1. How to make a plan for an inelastic scattering experiment.  (15 min)   
-    2. How to determine an appropriate incident energy (TOF diagram) (15 min)
-
-Problem 1. Calculate a phase offset for the target Ei. (30 min) TOF diagramが描けるgnuplot scriptを提供。 
+    1. How to make a plan for an inelastic scattering experiment.
+    2. How to determine an appropriate incident energy (TOF diagram)
+    3. Problem 1. Calculate a phase offset for the target E_i. (gnuplot scriptを提供。 
   1. Multi-Ei method (10 min)
   Problem 2 Calculate other Eis when the target Ei of 160 meV is obtained by rotating the Fermi chopper with a frequency of 200 Hz. (30 min) TOF diagramが描けるgnuplot scriptを提供。 
   1. Q-E trajectories in a 2D reciprocal lattice space (single crystal). (15 min)
