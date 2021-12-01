@@ -1,0 +1,66 @@
+# A gnuplot script to draw a TOF diagram
+#
+# ============= user variables ===============================
+# The energy of the incident neutron beam. (meV)
+Ei=160.0
+
+# Excitation energy (meV)
+E=100.0
+
+# Velocity for the incident neutrons  (m/ms)
+vi=0.437*sqrt(Ei)
+
+# Velocity of the scattered neutrons (m/ms)
+vf=0.437*sqrt(Ei-E)
+
+# Maximum of the horizontal (TOF) axis (ms)
+TOF_max=10.0
+
+# ========= please do not change following commands =============
+# Distance between the neutron source and the sample position (m)
+L1=15.0
+
+# Distance between the sample position and the detectors (m)
+L2=5.0
+
+# Distance between the sample position and the Fermi chopper (m)
+L3=1.03
+
+# The time at which the incident neutron arrives at the sample position
+ts = L1/vi
+
+set title sprintf('Time of flight diagram at HRC, E_i=%4.1f meV, E=%4.1f meV',Ei,(Ei-E)) font "Arial,14" 
+set xlabel 'Time of flight (ms)' font "Arial,16" 
+set ylabel 'Distance from the source (m)' font "Arial,16" 
+
+set xrange [0:TOF_max]
+set yrange [0:L1+L2]
+
+F(x)=vi*x
+F2(x)=(x < ts ? vi*x : vf*x + (L1-(vf*ts)))
+
+SamplePos(x)=L1
+DetPos(x)=L1+L2
+Fermi(x)=L1-L3
+
+#for png
+set samples 1000
+set term png size 800, 500
+set size ratio 0.9  # ratio r = height/width
+set out 'HRC_TOF_diagram_01.png'
+set key right bottom
+
+set style line 1 lt 1 lc "#ff0000" lw 2 pt 7 ps 1.5
+set style line 2 lt 1 lc "#8080FF" lw 2 pt 7 ps 1.5
+set style line 3 lt 1 lc "#00C000" lw 1 pt 7 ps 1.5
+set style line 11 lt 1 lc "#000000" lw 1 pt 6 ps 1.5
+
+set label 1 at first  TOF_max,L1 " Sample"
+set label 2 at first  TOF_max,(L1+L2) " Detector"
+set label 3 at first  TOF_max,(L1-L3) " Fermi Chopper"
+
+plot SamplePos(x) ls 3 not,\
+DetPos(x) ls 3 not,\
+Fermi(x) ls 3 not,\
+F2(x) ls 2 t 'inelastic',\
+F(x) ls 1 t 'elastic'
