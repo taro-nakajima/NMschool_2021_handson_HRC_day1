@@ -33,16 +33,18 @@ brew install gnuplot
 * Neutron Brillouin scattering on SrRuO<sub>3</sub>
     - https://www.nature.com/articles/ncomms11788
  
-##Section 4: Procedures of neutron inelastic scattering experiment.
-    1. How to make a plan for an inelastic scattering experiment.
-    2. How to determine an appropriate incident energy (TOF diagram)
-    3. Multi-Ei method.
-    4. _Q-E_ trajectories in a 2D reciprocal lattice space (single crystal). 
+## Section 4: Procedures of neutron inelastic scattering experiment.
+### 4-1. How to make a plan for an inelastic scattering experiment.
+### 4-2. How to determine the incident energy energy (How a Fermi chopper works).
 
 ### Problem 1: 
 Calculate a phase offset for the target _E_<sub>i</sub>. 
 
 [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt).
+
+3. Multi-Ei method.
+4. _Q-E_ trajectories in a 2D reciprocal lattice space (single crystal). 
+
 
 ### Problem 2: 
 Calculate other Eis when the target Ei of 160 meV is obtained by rotating the Fermi chopper with a frequency of 200 Hz. gnuplot script 
