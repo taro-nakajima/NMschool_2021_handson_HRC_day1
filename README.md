@@ -21,3 +21,4 @@ Calculate other Eis when the target Ei of 160 meV is obtained by rotating the Fe
 
 ### Problem 3: 
 Calculate Q-E trajectories for Ei=160 meV.  gnuplot script 
+ 
