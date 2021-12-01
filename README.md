@@ -6,7 +6,7 @@
 ## Outline
 1. A brief review of inelastic neutron scattering.
 2. Overview of HRC spectrometer. (15 min)
-3. Examples of experiments at HRC (CsFeCl3 under pressure, SrRuO3 NBS) 
+3. Examples of experiments at HRC (CsFeCl$_3$ under pressure, SrRuO3 NBS) 
 4. Procedures of neutron inelastic scattering experiment.
     1. How to make a plan for an inelastic scattering experiment.
     2. How to determine an appropriate incident energy (TOF diagram)
