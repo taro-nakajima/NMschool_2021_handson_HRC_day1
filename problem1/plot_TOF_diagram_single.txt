@@ -5,7 +5,7 @@
 Ei=160.0
 
 # Excitation energy (meV)
-E=110.0
+E=90.0
 
 # Velocity for the incident neutrons  (m/ms)
 vi=0.437*sqrt(Ei)
