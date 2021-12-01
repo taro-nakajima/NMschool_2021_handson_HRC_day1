@@ -22,7 +22,10 @@ brew install gnuplot
 ## Section 2: Overview of HRC spectrometer. 
  HRC is the High-Resolution Chopper spectrometer at BL12 in MLF of J-PARC. Key parameters of the spectrometer are following. 
 ![HRC_layout_v7](https://user-images.githubusercontent.com/50174733/144195316-b9001709-d7bf-494f-983b-67f8ff7748ef.png)
-* L1 (neutron source to sample) : 15.0 m
+* L<sub>1</sub> (neutron source (moderator) to sample) : 15.0 m
+* L<sub>2</sub> (sample to detector) : 4.0 m
+* L<sub>3</sub> (Fermi chopper to sample) : 1.03 m
+* L<sub>T0</sub> (neutron source (moderator) to T0 chopper) : 9.0 m
 
 
 3. Examples of experiments at HRC (CsFeCl<sub>3</sub> under pressure, SrRuO<sub>3</sub> Neutron Brillouin scattering) 
