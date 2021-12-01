@@ -12,7 +12,7 @@
 4-1. How to make a plan for an inelastic scattering experiment.
 4-2. How to determine an appropriate incident energy (TOF diagram)
 
-###**Problem 1**
+### Problem 1
 Calculate a phase offset for the target _E_<sub>i</sub>. gnuplot script.
 
 4-3. Multi-Ei method.
