@@ -38,9 +38,7 @@ brew install gnuplot
 ### 4-2. How to determine the incident energy energy (How a Fermi chopper works).
 
 ### Problem 1: 
-Calculate a phase offset for the target _E_<sub>i</sub>. 
-
-[gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt).
+Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
 3. Multi-Ei method.
 4. _Q-E_ trajectories in a 2D reciprocal lattice space (single crystal). 
