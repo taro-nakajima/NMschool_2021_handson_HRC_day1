@@ -14,7 +14,8 @@
     4. _Q-E_ trajectories in a 2D reciprocal lattice space (single crystal). 
 
 ### Problem 1: 
-Calculate a phase offset for the target _E_<sub>i</sub>. gnuplot script.
+Calculate a phase offset for the target _E_<sub>i</sub>. 
+[gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt).
 
 ### Problem 2: 
 Calculate other Eis when the target Ei of 160 meV is obtained by rotating the Fermi chopper with a frequency of 200 Hz. gnuplot script 
