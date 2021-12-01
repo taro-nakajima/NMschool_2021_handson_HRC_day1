@@ -41,8 +41,15 @@ brew install gnuplot
 Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
 * Open "plot_TOF_diagram_single.txt".
-* Find appropriate equations for the variables "vi" and "vf", which are the velocities of incident and scattered neutrons. Note that in gnuplot you can use built-in functions such as sqrt(x) and x**2.0.  
-
+* Write down appropriate equations for the variables "vi" and "vf", which are the velocities of incident and scattered neutrons. Note that in gnuplot you can use built-in functions such as sqrt(x) and x**2.0.
+* Load the script in gnuplot:
+```
+gnuplot> load 'plot_TOF_diagram_single.txt'
+```
+then a png file named 'HRC_TOF_diagram_01.png' will be generated (or updated).
+![HRC_TOF_diagram_01](https://user-images.githubusercontent.com/50174733/144240255-ff3c50d6-058c-41d2-82c1-3b907dd9d5bd.png)
+* Draw TOF diagrams for (1) E<sub>i</sub>=20 meV, E=10 meV (TOF_max=40 ms), and (2) E<sub>i</sub>=100 meV, E=10 meV. In both cases, you will measure excitations at 10 meV. Which will have the higher energy resolution? 
+ 
 ### Sec. 4-3: What is the multi-E<sub>i</sub> method?
 
 ### Problem 2: 
