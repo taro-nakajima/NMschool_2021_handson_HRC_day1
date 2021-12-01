@@ -8,10 +8,10 @@
 2. Overview of HRC spectrometer. 
 3. Examples of experiments at HRC (CsFeCl<sub>3</sub> under pressure, SrRuO<sub>3</sub> Neutron Brillouin scattering) 
 4. Procedures of neutron inelastic scattering experiment.
-    4-1. How to make a plan for an inelastic scattering experiment.
-    4-2. How to determine an appropriate incident energy (TOF diagram)
-    4-3. Multi-Ei method.
-    4-4. _Q-E_ trajectories in a 2D reciprocal lattice space (single crystal). 
+    1. How to make a plan for an inelastic scattering experiment.
+    2. How to determine an appropriate incident energy (TOF diagram)
+    3. Multi-Ei method.
+    4. _Q-E_ trajectories in a 2D reciprocal lattice space (single crystal). 
 ### Problem 1
 Calculate a phase offset for the target _E_<sub>i</sub>. gnuplot script.
 
