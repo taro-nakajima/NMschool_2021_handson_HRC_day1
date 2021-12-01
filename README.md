@@ -34,19 +34,21 @@ brew install gnuplot
     - https://www.nature.com/articles/ncomms11788
  
 ## Section 4: Procedures of neutron inelastic scattering experiment.
-### 4-1. How to make a plan for an inelastic scattering experiment.
-### 4-2. How to determine the incident energy energy (How a Fermi chopper works).
+### Sec. 4-1: How to make a plan for an inelastic scattering experiment.
+### Sec. 4-2: How to determine the incident energy energy (How a Fermi chopper works).
 
 ### Problem 1: 
 Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
-3. Multi-Ei method.
-4. _Q-E_ trajectories in a 2D reciprocal lattice space (single crystal). 
-
+### Sec. 4-3: What is the multi-E<sub>i</sub> method?
 
 ### Problem 2: 
 Calculate other Eis when the target Ei of 160 meV is obtained by rotating the Fermi chopper with a frequency of 200 Hz. gnuplot script 
 
+### Sec. 4-4: _Q-E_ trajectories for powder samples 
+
 ### Problem 3: 
 Calculate Q-E trajectories for Ei=160 meV.  gnuplot script 
  
+
+
