@@ -6,9 +6,15 @@ This webpage shows the outline of the on-line hands-on training of HRC spectrome
 ## Gnuplot
 We will use gnuplot plogram in this training course. Please download and install gnuplot from the following url. 
 
-for Windows https://sourceforge.net/projects/gnuplot/files/gnuplot/5.4.2/
+for Windows: https://sourceforge.net/projects/gnuplot/files/gnuplot/5.4.2/
 
-for macOS 
+for macOS:
+1. Install The Homebrew package manager. https://brew.sh/
+2. Open "Terminal" app. and type 
+```bash
+brew upgrade
+brew install gnuplot
+```
 
 ## Outline
 1. A brief review of inelastic neutron scattering.
