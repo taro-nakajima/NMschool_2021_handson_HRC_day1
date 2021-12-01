@@ -5,7 +5,7 @@
 Ei=160.0
 
 # Excitation energy (meV)
-E=100.0
+E=110.0
 
 # Velocity for the incident neutrons  (m/ms)
 vi=0.437*sqrt(Ei)
@@ -29,7 +29,7 @@ L3=1.03
 # The time at which the incident neutron arrives at the sample position
 ts = L1/vi
 
-set title sprintf('Time of flight diagram at HRC, E_i=%4.1f meV, E=%4.1f meV',Ei,(Ei-E)) font "Arial,14" 
+set title sprintf('Time of flight diagram at HRC, E_i=%4.1f meV, E=%4.1f meV',Ei,E) font "Arial,14" 
 set xlabel 'Time of flight (ms)' font "Arial,16" 
 set ylabel 'Distance from the source (m)' font "Arial,16" 
 
@@ -64,3 +64,5 @@ DetPos(x) ls 3 not,\
 Fermi(x) ls 3 not,\
 F2(x) ls 2 t 'inelastic',\
 F(x) ls 1 t 'elastic'
+
+set out
