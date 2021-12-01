@@ -1,8 +1,15 @@
 # Hands-on experiments at HRC(BL12), NM school 2021
 
 ## Introduction
- This webpage shows the outline of the on-line hands-on training of HRC spectrometer in MLF of J-PARC and sample programs for the training. 
- 
+This webpage shows the outline of the on-line hands-on training of HRC spectrometer in MLF of J-PARC and sample programs for the training. 
+
+## Gnuplot
+We will use gnuplot plogram in this training course. Please download and install gnuplot from the following url. 
+
+for Windows https://sourceforge.net/projects/gnuplot/files/gnuplot/5.4.2/
+
+for macOS 
+
 ## Outline
 1. A brief review of inelastic neutron scattering.
 2. Overview of HRC spectrometer. 
