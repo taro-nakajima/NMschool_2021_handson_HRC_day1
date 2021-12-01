@@ -37,7 +37,7 @@ brew install gnuplot
 ### Sec. 4-1: How to make a plan for an inelastic scattering experiment.
 ### Sec. 4-2: How to determine the incident energy energy (How a Fermi chopper works).
 
-### <Problem 1>>: 
+### Problem 1: 
 Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
 ### Sec. 4-3: What is the multi-E<sub>i</sub> method?
