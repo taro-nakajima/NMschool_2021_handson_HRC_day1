@@ -8,8 +8,8 @@
 2. Overview of HRC spectrometer. (15 min)
 3. Examples of experiments at HRC (CsFeCl3 under pressure, SrRuO3 NBS) (15 min)
 4. Procedures of neutron inelastic scattering experiment.
- 1. How to make a plan for an inelastic scattering experiment.  (15 min)
- 1. How to determine an appropriate incident energy (TOF diagram) (15 min)
+    1. How to make a plan for an inelastic scattering experiment.  (15 min)   
+    2. How to determine an appropriate incident energy (TOF diagram) (15 min)
 
 Problem 1. Calculate a phase offset for the target Ei. (30 min) TOF diagramが描けるgnuplot scriptを提供。 
   1. Multi-Ei method (10 min)
