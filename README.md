@@ -19,9 +19,8 @@ brew install gnuplot
 ## Outline
 1. A brief review of inelastic neutron scattering.
 2. Overview of HRC spectrometer. 
-
-4. Examples of experiments at HRC (CsFeCl<sub>3</sub> under pressure, SrRuO<sub>3</sub> Neutron Brillouin scattering) 
-5. Procedures of neutron inelastic scattering experiment.
+3. Examples of experiments at HRC (CsFeCl<sub>3</sub> under pressure, SrRuO<sub>3</sub> Neutron Brillouin scattering) 
+4. Procedures of neutron inelastic scattering experiment.
     1. How to make a plan for an inelastic scattering experiment.
     2. How to determine an appropriate incident energy (TOF diagram)
     3. Multi-Ei method.
