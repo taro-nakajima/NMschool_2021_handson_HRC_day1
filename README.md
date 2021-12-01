@@ -27,8 +27,13 @@ brew install gnuplot
 * L<sub>T0</sub> (neutron source (moderator) to T0 chopper) : 9.0 m
 
 
-3. Examples of experiments at HRC (CsFeCl<sub>3</sub> under pressure, SrRuO<sub>3</sub> Neutron Brillouin scattering) 
-4. Procedures of neutron inelastic scattering experiment.
+## Section 3: Examples of experiments at HRC 
+* Hybridization of longitudinal and transverse spin excitations in CsFeCl<sub>3</sub> under pressure
+    - https://www.science.org/doi/10.1126/sciadv.aaw5639
+* Neutron Brillouin scattering on SrRuO<sub>3</sub>
+    - https://www.nature.com/articles/ncomms11788
+ 
+##Section 4: Procedures of neutron inelastic scattering experiment.
     1. How to make a plan for an inelastic scattering experiment.
     2. How to determine an appropriate incident energy (TOF diagram)
     3. Multi-Ei method.
