@@ -42,6 +42,7 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/pr
 
 * Open "plot_TOF_diagram_single.txt".
 * Find appropriate equations for the variables "vi" and "vf", which are the velocities of incident and scattered neutrons. Note that in gnuplot you can use built-in functions such as sqrt(x) and x**2.0.  
+![HRC_TOF_diagram_01](https://user-images.githubusercontent.com/50174733/144240112-84705203-a65c-4978-8eae-73b35afc8b5a.png)
 
 ### Sec. 4-3: What is the multi-E<sub>i</sub> method?
 
