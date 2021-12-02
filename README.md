@@ -53,7 +53,7 @@ then a png file named 'HRC_TOF_diagram_01.png' will be generated (or updated).
 ### Sec. 4-3: What is the multi-E<sub>i</sub> method?
 
 ### Problem 2: 
-Calculate other Eis when the target Ei of 160 meV is obtained by rotating the Fermi chopper with a frequency of 200 Hz. gnuplot script 
+Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/problem2/plot_TOF_diagram_multi.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
 ### Sec. 4-4: _Q-E_ trajectories for powder samples 
 
