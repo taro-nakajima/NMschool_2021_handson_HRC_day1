@@ -63,7 +63,8 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/pr
 ### Sec. 4-4: _Q-E_ trajectories for powder samples 
 
 ### Problem 3: 
-Calculate Q-E trajectories for Ei=100 meV.  
- 
+Calculate Q-E trajectories using the [gnuplot script for problem 3](/problem3/plot_QEtraj_powder.txt), and check how the accessible Q-E range changes with the energy of the incident neutrons.
+* Open "plot_TOF_diagram_multiE.txt".
+* Write down appropriate equations for the functions "Q1(t)" and "Q2(t)", which are the Q values measured by the lowest and highest scattering angles, respectively.
 
 
