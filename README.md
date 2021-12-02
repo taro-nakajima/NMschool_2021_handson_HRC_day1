@@ -63,7 +63,7 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/pr
 ### Sec. 4-4: _Q-E_ trajectories for powder samples 
 
 ### Problem 3: 
-Calculate Q-E trajectories for Ei=102 meV.  
+Calculate Q-E trajectories for Ei=100 meV.  
  
 
 
