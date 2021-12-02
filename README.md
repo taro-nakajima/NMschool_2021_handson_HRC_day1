@@ -66,5 +66,6 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/pr
 Calculate Q-E trajectories using the [gnuplot script for problem 3](/problem3/plot_QEtraj_powder.txt), and check how the accessible Q-E range changes with the energy of the incident neutrons.
 * Open "plot_TOF_diagram_multiE.txt".
 * Write down appropriate equations for the functions "Q1(t)" and "Q2(t)", which are the Q values measured by the lowest and highest scattering angles, respectively.
-
+* You can see how the accessible Q-E range changes with the incident energy.
+![HRC_QErange_s](https://user-images.githubusercontent.com/50174733/144360311-dd88f13f-3ee0-4847-8b9b-2a45c5c782d5.png)
 
