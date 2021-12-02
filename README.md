@@ -47,6 +47,7 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/pr
 gnuplot> load 'plot_TOF_diagram_single.txt'
 ```
 then a png file named 'HRC_TOF_diagram_01.png' will be generated (or updated).
+
 ![HRC_TOF_diagram_01](https://user-images.githubusercontent.com/50174733/144240255-ff3c50d6-058c-41d2-82c1-3b907dd9d5bd.png)
 * Draw TOF diagrams for (1) E<sub>i</sub>=20 meV, E=10 meV (TOF_max=40 ms), and (2) E<sub>i</sub>=100 meV, E=10 meV. In both cases, you will measure excitations at 10 meV. Which will have the higher energy resolution? 
  
@@ -58,6 +59,7 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/pr
 * Run this script in gnuplot. A png file named 'HRC_TOF_diagram_02.png' will be generated (or updated).
 * By changing the value of "f" in the script, you can see how the 2nd and 3rd incident energy change with the frequency of the Fermi chopper.
 * The variable "E" is the energy of the excitation (energy transfered from the incident neutrons). Please check how the neutron velocities, which are the slopes of the TOF lines, change with the inelastic scattering process with fixed E. 
+
 ![HRC_TOF_diagram_02s](https://user-images.githubusercontent.com/50174733/144352429-68782d6f-6c6c-4684-b769-40b974cb8a9d.jpeg)
 
 ### Sec. 4-4: _Q-E_ trajectories for powder samples 
@@ -67,5 +69,7 @@ Calculate Q-E trajectories using the [gnuplot script for problem 3](/problem3/pl
 * Open "plot_TOF_diagram_multiE.txt".
 * Write down appropriate equations for the functions "Q1(t)" and "Q2(t)", which are the Q values measured by the lowest and highest scattering angles, respectively.
 * You can see how the accessible Q-E range changes with the incident energy.
+
+
 ![HRC_QErange_s](https://user-images.githubusercontent.com/50174733/144360311-dd88f13f-3ee0-4847-8b9b-2a45c5c782d5.png)
 
