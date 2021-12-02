@@ -51,3 +51,4 @@ plot Q1(t),Energy1(t) ls 1 not,\
 Q2(t),Energy2(t) ls 1 not
 
 set out
+unset parametric
