@@ -53,7 +53,12 @@ then a png file named 'HRC_TOF_diagram_01.png' will be generated (or updated).
 ### Sec. 4-3: What is the multi-E<sub>i</sub> method?
 
 ### Problem 2: 
-Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/problem2/plot_TOF_diagram_multi.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
+Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/problem2/plot_TOF_diagram_multiE.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
+* Open "plot_TOF_diagram_multiE.txt".
+* Run this script in gnuplot. A png file named 'HRC_TOF_diagram_02.png' will be generated (or updated).
+* By changing the value of "f" in the script, you can see how the 2nd and 3rd incident energy change with the frequency of the Fermi chopper.
+* The variable "E" is the energy of the excitation (energy transfered from the incident neutrons). Please check how the neutron velocities, which are the slopes of the TOF lines, change with the inelastic scattering process with fixed E. 
+![HRC_TOF_diagram_02s](https://user-images.githubusercontent.com/50174733/144352429-68782d6f-6c6c-4684-b769-40b974cb8a9d.jpeg)
 
 ### Sec. 4-4: _Q-E_ trajectories for powder samples 
 
