@@ -1,0 +1,51 @@
+# A gnuplot script to draw an accessible Q-E range.
+#
+set parametric
+#
+# ============= user variables ===============================
+# The energy of the incident neutron beam. (meV)
+Ei=100.0
+
+# Lower limit of scattering angle
+phi_min = 3.0
+
+# Upper limit of scattering angle
+phi_max = 64.16
+
+# "t" is a parametric variable. t=E. 
+Energy1(t)=t
+Q1(t)=sqrt((Ei/2.072)+(Ei-t)/2.072 - 2.0*sqrt(Ei*(Ei-t))/2.072*cos(phi_min/180.0*pi))
+
+Energy2(t)=t
+Q2(t)=sqrt((Ei/2.072)+(Ei-t)/2.072 - 2.0*sqrt(Ei*(Ei-t))/2.072*cos(phi_max/180.0*pi))
+
+Q_max=8.0
+
+# ========= please do not change following commands =============
+
+set xrange [0:Q_max]
+set yrange [0:Ei]
+set trange [0:Ei]
+
+#for png
+set samples 1000
+set term png size 800, 500
+set size ratio 0.7  # ratio r = height/width
+set out 'HRC_TOF_diagram_02.png'
+set key left top
+
+set title sprintf('Accessible Q-E range for E_i=%4.1f meV (powder sample)',Ei) font "Arial,14" 
+set xlabel 'Q (A^{-1})' font "Arial,16" 
+set ylabel 'E (meV)' font "Arial,16" 
+
+
+set style line 1 lt 1 lc "#ff0000" lw 2 pt 7 ps 1.5
+set style line 2 lt 1 lc "#8080FF" lw 2 pt 7 ps 1.5
+set style line 3 lt 1 lc "#00C000" lw 1 pt 7 ps 1.5
+set style line 11 lt 1 lc "#000000" lw 1 pt 6 ps 1.5
+
+
+plot Q1(t),Energy1(t) ls 1 not,\
+Q2(t),Energy2(t) ls 1 not
+
+set out
