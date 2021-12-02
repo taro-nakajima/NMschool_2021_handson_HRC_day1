@@ -1,5 +1,4 @@
-# Hands-on experiments at HRC(BL12), NM school 2021
-# Day 1
+# Hands-on experiments at HRC(BL12), NM school 2021, Day 1
 
 ## Introduction
 This webpage shows the outline of the on-line hands-on training of HRC spectrometer in MLF of J-PARC and sample programs for the training. 
