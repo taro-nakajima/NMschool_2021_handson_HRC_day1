@@ -5,7 +5,7 @@
 Ei=160.0
 
 # Excitation energy (meV)
-E=25.0
+E=12.0
 
 # Frequency of the Fermi chopper (Hz)
 f=200.0
@@ -56,7 +56,7 @@ ts2 = L1/vi2
 ts3 = L1/vi3
 
 
-set title sprintf('Time of flight diagram at HRC, E_i=%4.1f meV, E=%4.1f meV',Ei,E) font "Arial,14" 
+set title sprintf('Time of flight diagram at HRC, chopper freq. f=%4.1f Hz',f) font "Arial,14" 
 set xlabel 'Time of flight (ms)' font "Arial,16" 
 set ylabel 'Distance from the source (m)' font "Arial,16" 
 
@@ -94,11 +94,11 @@ set label 3 at first  TOF_max,(L1-L3) " Fermi Chopper"
 plot SamplePos(x) ls 3 not,\
 DetPos(x) ls 3 not,\
 Fermi(x) ls 3 not,\
-TOFline_Ef_1(x) ls 2 t sprintf('inelastic (E=%4.1f)',E),\
+TOFline_Ef_1(x) ls 2 t sprintf('inelastic (E=%4.1f meV)',E),\
 TOFline_Ef_2(x) ls 2 not,\
 TOFline_Ef_2(x) ls 2 not,\
-TOFline_Ei_1(x) ls 1 t sprintf('elastic (E_i(1)=%4.1f)',Ei),\
-TOFline_Ei_2(x) ls 1 t sprintf('elastic (E_i(2)=%4.1f)',Ei2),\
-TOFline_Ei_3(x) ls 1 t sprintf('elastic (E_i(3)=%4.1f)',Ei3)
+TOFline_Ei_1(x) ls 1 t sprintf('elastic (E_i(1)=%4.1f meV)',Ei),\
+TOFline_Ei_2(x) ls 1 t sprintf('elastic (E_i(2)=%4.1f meV)',Ei2),\
+TOFline_Ei_3(x) ls 1 t sprintf('elastic (E_i(3)=%4.1f meV)',Ei3)
 
 set out
