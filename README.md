@@ -5,7 +5,7 @@ This webpage shows the outline of the on-line hands-on training of HRC spectrome
 
 ## How to get scripts for problems
 If you are familiar with git, just clone this repository.
-If not, click the green "Code" button and choose the "Download ZIP" option.
+If not, click the green "Code" button above and choose the "Download ZIP" option.
 
 ## Gnuplot
 We will use gnuplot plogram in this training course. Please download and install gnuplot from the following url. 
