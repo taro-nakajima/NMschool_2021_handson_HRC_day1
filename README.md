@@ -66,7 +66,8 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/pr
 * By changing the value of "f" in the script, you can see how the 2nd and 3rd incident energy change with the frequency of the Fermi chopper.
 * The variable "E" is the energy of the excitation (energy transfered from the incident neutrons). Please check how the neutron velocities, which are the slopes of the TOF lines, change with the inelastic scattering process with fixed E. 
 
-![HRC_TOF_diagram_02s](https://user-images.githubusercontent.com/50174733/144352429-68782d6f-6c6c-4684-b769-40b974cb8a9d.jpeg)
+<img width="500" src="https://user-images.githubusercontent.com/50174733/144692177-502d1961-dc0e-42ee-b405-3e58ae29a977.png">
+
 
 ### Sec. 4-3: Detector coverage
 Accessible Q-E range is determined by the detector coverage of the instrument. In the following, we calculate _Q-E_ trajectories for a measurement of a powder sample at HRC. 
