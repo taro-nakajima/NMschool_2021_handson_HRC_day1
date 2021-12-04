@@ -52,7 +52,8 @@ gnuplot> load 'plot_TOF_diagram_single.txt'
 ```
 then a png file named 'HRC_TOF_diagram_01.png' will be generated (or updated).
 
-![HRC_TOF_diagram_01](https://user-images.githubusercontent.com/50174733/144240255-ff3c50d6-058c-41d2-82c1-3b907dd9d5bd.png)
+<img src="https://user-images.githubusercontent.com/50174733/144691625-6982c7f0-c7aa-453f-af1c-d95c2c16dd8d.png">
+
 * Draw TOF diagrams for (1) E<sub>i</sub>=20 meV, E=10 meV (TOF_max=40 ms), and (2) E<sub>i</sub>=100 meV, E=10 meV. You can see how the phase offset of the Fermi chopper changes when changing E<sub>i</sub>. Suppose you are going to measure excitations at 10 meV with E<sub>i</sub>s of 20 and 100 meV. Which will have the higher energy resolution? 
  
 ### Sec. 4-2: Fermi chopper - multi E<sub>i</sub> -
