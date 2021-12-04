@@ -37,10 +37,9 @@ brew install gnuplot
 * Neutron Brillouin scattering on SrRuO<sub>3</sub>
     - https://www.nature.com/articles/ncomms11788
  
-## Section 4: Procedures of neutron inelastic scattering experiment.
-### Sec. 4-1: How to make a plan for an inelastic scattering experiment.
-### Sec. 4-2: How to determine the incident energy energy (How a Fermi chopper works).
-
+## Section 4: Components of an inelasitc neutron scattering instrument
+### Sec. 4-1: Fermi chopper
+Fermichopper determines 
 ### Problem 1: 
 Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
