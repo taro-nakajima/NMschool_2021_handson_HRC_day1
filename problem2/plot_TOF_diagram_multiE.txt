@@ -1,4 +1,4 @@
-# A gnuplot script to draw a TOF diagram
+# A gnuplot script to draw a TOF diagram with multi-Ei
 #
 # ============= user variables ===============================
 # The energy of the incident neutron beam. (meV)
