@@ -22,6 +22,9 @@ brew install gnuplot
 ## Section 1: A brief review of inelastic neutron scattering.
  A lecture on inelastic neutron scattering will be given by Prof. Itoh in the morning session on Tuesday. Here, we recall basic equations on energies and momenta of neutrons and excited quasi-particles (phonons, magnons etc.).
 
+<img width="800" src="https://user-images.githubusercontent.com/50174733/144694194-b51a3b0f-40ba-4fbf-a6f7-4b8b69a635a2.png">
+
+
 ## Section 2: Overview of HRC spectrometer. 
  HRC is the High-Resolution Chopper spectrometer at BL12 in MLF of J-PARC. Key parameters of the spectrometer are following. 
 ![HRC_layout_v7](https://user-images.githubusercontent.com/50174733/144195316-b9001709-d7bf-494f-983b-67f8ff7748ef.png)
