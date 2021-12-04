@@ -75,6 +75,22 @@ SamplePos(x)=L1
 DetPos(x)=L1+L2
 Fermi(x)=L1-L3
 
+Fermi_period = 1.0/f*1000  # ms
+chopper_opening = 0.3  # ms
+
+array Fermi1_X[2] = [0,tc-chopper_opening]
+array Fermi1_Y[2] = [L1-L3,L1-L3]
+
+array Fermi2_X[2] = [tc+chopper_opening,tc+Fermi_period-chopper_opening]
+array Fermi2_Y[2] = [L1-L3,L1-L3]
+
+array Fermi3_X[2] = [tc+Fermi_period+chopper_opening,tc+Fermi_period*2.0-chopper_opening]
+array Fermi3_Y[2] = [L1-L3,L1-L3]
+
+array Fermi4_X[2] = [tc+Fermi_period*2.0+chopper_opening,tc+Fermi_period*3.0-chopper_opening]
+array Fermi4_Y[2] = [L1-L3,L1-L3]
+
+
 #for png
 set samples 1000
 set term png size 800, 500
@@ -86,6 +102,7 @@ set style line 1 lt 1 lc "#ff0000" lw 2 pt 7 ps 1.5
 set style line 2 lt 1 lc "#8080FF" lw 2 pt 7 ps 1.5
 set style line 3 lt 1 lc "#00C000" lw 1 pt 7 ps 1.5
 set style line 11 lt 1 lc "#000000" lw 1 pt 6 ps 1.5
+set style line 12 lt 1 lc "#808080" lw 4 pt 6 ps 1.5
 
 set label 1 at first  TOF_max,L1 " Sample"
 set label 2 at first  TOF_max,(L1+L2) " Detector"
@@ -99,6 +116,11 @@ TOFline_Ef_2(x) ls 2 not,\
 TOFline_Ef_2(x) ls 2 not,\
 TOFline_Ei_1(x) ls 1 t sprintf('elastic (E_i(1)=%4.1f meV)',Ei),\
 TOFline_Ei_2(x) ls 1 t sprintf('elastic (E_i(2)=%4.1f meV)',Ei2),\
-TOFline_Ei_3(x) ls 1 t sprintf('elastic (E_i(3)=%4.1f meV)',Ei3)
+TOFline_Ei_3(x) ls 1 t sprintf('elastic (E_i(3)=%4.1f meV)',Ei3),\
+Fermi1_Y using (Fermi1_X[$1]):2 w l ls 12 not,\
+Fermi2_Y using (Fermi2_X[$1]):2 w l ls 12 not,\
+Fermi3_Y using (Fermi3_X[$1]):2 w l ls 12 not,\
+Fermi4_Y using (Fermi4_X[$1]):2 w l ls 12 not
+
 
 set out
