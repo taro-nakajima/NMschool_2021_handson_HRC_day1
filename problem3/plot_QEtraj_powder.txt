@@ -14,10 +14,10 @@ phi_max = 64.16
 
 # "t" is a parametric variable. t=E. 
 Energy1(t)=t
-Q1(t)=sqrt((Ei/2.072)+(Ei-t)/2.072 - 2.0*sqrt(Ei*(Ei-t))/2.072*cos(phi_min/180.0*pi))
+Q1(t)= # Write down the momentum of the excitation measured at the lowest-angle detector as a function of Ei, t(=E), and phi_min.
 
 Energy2(t)=t
-Q2(t)=sqrt((Ei/2.072)+(Ei-t)/2.072 - 2.0*sqrt(Ei*(Ei-t))/2.072*cos(phi_max/180.0*pi))
+Q2(t)= # Write down the momentum of the excitation measured at the highest-angle detector as a function of Ei, t(=E), and phi_max.
 
 # plot range
 Q_max=8.0
