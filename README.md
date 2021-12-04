@@ -39,7 +39,8 @@ brew install gnuplot
  
 ## Section 4: Components of an inelasitc neutron scattering instrument
 ### Sec. 4-1: Fermi chopper
-Fermichopper determines 
+Fermichopper determines the energy of the incident neutron beam. In the following, we study how a Fermi chopper works.
+
 ### Problem 1: 
 Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 1](/problem1/plot_TOF_diagram_single.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
 
@@ -52,7 +53,7 @@ gnuplot> load 'plot_TOF_diagram_single.txt'
 then a png file named 'HRC_TOF_diagram_01.png' will be generated (or updated).
 
 ![HRC_TOF_diagram_01](https://user-images.githubusercontent.com/50174733/144240255-ff3c50d6-058c-41d2-82c1-3b907dd9d5bd.png)
-* Draw TOF diagrams for (1) E<sub>i</sub>=20 meV, E=10 meV (TOF_max=40 ms), and (2) E<sub>i</sub>=100 meV, E=10 meV. In both cases, you will measure excitations at 10 meV. Which will have the higher energy resolution? 
+* Draw TOF diagrams for (1) E<sub>i</sub>=20 meV, E=10 meV (TOF_max=40 ms), and (2) E<sub>i</sub>=100 meV, E=10 meV. You can see how the phase offset of the Fermi chopper changes when changing E<sub>i</sub>. Suppose you are going to measure excitations at 10 meV with E<sub>i</sub>s of 20 and 100 meV. Which will have the higher energy resolution? 
  
 ### Sec. 4-3: What is the multi-E<sub>i</sub> method?
 
