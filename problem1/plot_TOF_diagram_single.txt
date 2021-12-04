@@ -8,10 +8,10 @@ Ei=160.0
 E=90.0
 
 # Velocity for the incident neutrons  (m/ms)
-vi=0.437*sqrt(Ei)
+vi= ## [Problem] Write down the neutron velocity as a function of Ei
 
 # Velocity of the scattered neutrons (m/ms)
-vf=0.437*sqrt(Ei-E)
+vf= ##  [Problem] Write down the neutron velocity as a function of Ei and E (Ef=Ei-E).
 
 # Maximum of the horizontal (TOF) axis (ms)
 TOF_max=10.0
