@@ -29,6 +29,9 @@ L3=1.03
 # The time at which the incident neutron arrives at the sample position
 ts = L1/vi
 
+# The time at which the incident neutron arrives at the chopper position
+tc = (L1-L3)/vi
+
 set title sprintf('Time of flight diagram at HRC, E_i=%4.1f meV, E=%4.1f meV',Ei,E) font "Arial,14" 
 set xlabel 'Time of flight (ms)' font "Arial,16" 
 set ylabel 'Distance from the source (m)' font "Arial,16" 
@@ -43,6 +46,22 @@ SamplePos(x)=L1
 DetPos(x)=L1+L2
 Fermi(x)=L1-L3
 
+array Fermi1_X[2]
+array Fermi1_Y[2]
+array Fermi2_X[2]
+array Fermi2_Y[2]
+chopper_opening = 0.2 # ms
+
+Fermi1_X[1] =0.0
+Fermi1_X[2] =tc-chopper_opening
+Fermi1_Y[1] =L1-L3
+Fermi1_Y[2] =L1-L3
+
+Fermi2_X[1] =tc+chopper_opening
+Fermi2_X[2] =TOF_max
+Fermi2_Y[1] =L1-L3
+Fermi2_Y[2] =L1-L3
+
 #for png
 set samples 1000
 set term png size 800, 500
@@ -54,6 +73,7 @@ set style line 1 lt 1 lc "#ff0000" lw 2 pt 7 ps 1.5
 set style line 2 lt 1 lc "#8080FF" lw 2 pt 7 ps 1.5
 set style line 3 lt 1 lc "#00C000" lw 1 pt 7 ps 1.5
 set style line 11 lt 1 lc "#000000" lw 1 pt 6 ps 1.5
+set style line 12 lt 1 lc "#808080" lw 4 pt 6 ps 1.5
 
 set label 1 at first  TOF_max,L1 " Sample"
 set label 2 at first  TOF_max,(L1+L2) " Detector"
@@ -63,6 +83,8 @@ plot SamplePos(x) ls 3 not,\
 DetPos(x) ls 3 not,\
 Fermi(x) ls 3 not,\
 F2(x) ls 2 t 'inelastic',\
-F(x) ls 1 t 'elastic'
+F(x) ls 1 t 'elastic',\
+Fermi1_Y using (Fermi1_X[$1]):2 w l ls 12 not,\
+Fermi2_Y using (Fermi2_X[$1]):2 w l ls 12 not
 
 set out
