@@ -38,7 +38,7 @@ brew install gnuplot
     - https://www.nature.com/articles/ncomms11788
  
 ## Section 4: Components of an inelasitc neutron scattering instrument
-### Sec. 4-1: Fermi chopper
+### Sec. 4-1: Fermi chopper - single E<sub>i</sub> -
 Fermichopper determines the energy of the incident neutron beam. In the following, we study how a Fermi chopper works.
 
 ### Problem 1: 
@@ -55,7 +55,8 @@ then a png file named 'HRC_TOF_diagram_01.png' will be generated (or updated).
 ![HRC_TOF_diagram_01](https://user-images.githubusercontent.com/50174733/144240255-ff3c50d6-058c-41d2-82c1-3b907dd9d5bd.png)
 * Draw TOF diagrams for (1) E<sub>i</sub>=20 meV, E=10 meV (TOF_max=40 ms), and (2) E<sub>i</sub>=100 meV, E=10 meV. You can see how the phase offset of the Fermi chopper changes when changing E<sub>i</sub>. Suppose you are going to measure excitations at 10 meV with E<sub>i</sub>s of 20 and 100 meV. Which will have the higher energy resolution? 
  
-### Sec. 4-3: What is the multi-E<sub>i</sub> method?
+### Sec. 4-2: Fermi chopper - multi E<sub>i</sub> -
+In problem 1, we assume that the Fermi chopper opens only once for a neutron pulse. But actually, the rotation frequency of the Fermi chopper can be higher than the repitition frequency of the neutron pulse generation, which is 25 Hz in MLF. Then, we can utilize multiple E<sub>i</sub> as we study in the following.
 
 ### Problem 2: 
 Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/problem2/plot_TOF_diagram_multiE.txt), and check how the TOFs depends on the energies of the incident and scattered neutrons.
@@ -66,7 +67,8 @@ Draw a Time-of-flight (TOF) diagram using the [gnuplot script for problem 2](/pr
 
 ![HRC_TOF_diagram_02s](https://user-images.githubusercontent.com/50174733/144352429-68782d6f-6c6c-4684-b769-40b974cb8a9d.jpeg)
 
-### Sec. 4-4: _Q-E_ trajectories for powder samples 
+### Sec. 4-3: Detector coverage
+Accessible Q-E range is determined by the detector coverage of the instrument. In the following, we calculate _Q-E_ trajectories for a measurement of a powder sample at HRC. 
 
 ### Problem 3: 
 Calculate Q-E trajectories using the [gnuplot script for problem 3](/problem3/plot_QEtraj_powder.txt), and check how the accessible Q-E range changes with the energy of the incident neutrons.
